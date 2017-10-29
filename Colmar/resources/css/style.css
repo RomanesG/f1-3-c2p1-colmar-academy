@@ -1,0 +1,489 @@
+
+@-ms-viewport { 
+  width: device-width; 
+}
+
+html {
+	font-family: Montserrat;
+}
+
+/*HEADER SECTION*/
+
+header {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    padding-left: 24px;
+    height: 32px;
+    align-items: center;
+}
+
+.logo img {
+	height: 50px;
+}
+
+.logo h2 {
+	font-size: 28px;
+}
+
+.name1,
+nav span {
+	color: #38383B;
+}
+
+.name2 {
+	color: #D6DED8;
+}
+
+.for-mobile {
+	display: none;
+}
+
+nav {
+	display: flex;
+	padding-right: 8px;
+	justify-content: space-between;
+}
+
+nav span {
+	padding-right: 16px;
+	font-size: 20px;
+}
+
+
+/*FIRST JUMBO SECTION*/
+.container-one {
+	background-color: #D6DED8;
+	display: flex;
+	font-weight: bolder;
+}
+
+.jumbotron {
+	overflow: hidden;
+	width: 60%;
+	padding: 32px 24px;
+}
+
+.banner img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.appeal {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #38383B;
+}
+
+.appeal h1,
+.appeal h2 {
+	padding-bottom: 32px;
+	line-height: 1.3em;
+}
+
+.appeal a {
+	text-align: center;
+	padding: 8px 0;
+	background-color: #38383B;
+	color: white;
+	width: 70%;
+	text-decoration: none;
+	transition: all 700ms ease-in 200ms;
+}
+
+.appeal a:hover {
+	background-color: #FF4E46;
+	font-weight: bolder;
+	color: #38383B;
+}
+
+.appeal h1 {
+	font-size: 45px;
+}
+
+/*SECOND JUMBO SECTION*/
+.container-two {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 32px;
+	color: #38383B;
+	background-color: #EDEDFA;
+}
+
+.left {
+	width: 60%;
+	padding: 32px 24px;
+	overflow: hidden;
+}
+
+
+.student img {
+	max-width: 100%;
+	/*display: block and height: auto; have no meaning 
+	here for some reason. Or am I wrong?*/
+}
+
+
+.text h2 {
+	padding-top: 32px;
+	padding-bottom: 24px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.text p {
+	padding-bottom: 32px;
+}
+
+.text span {
+	font-size: 14px;
+}
+
+
+.right {
+	border-left: 1px solid #D6DED8; /*dont know how to make 
+	this border for full height*/
+	padding-top: 16px;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+
+.box {
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 16px;
+	border-top: 2px solid #D6DED8;
+}
+
+.borderless {
+	border-top: none;
+}
+
+.box:hover {
+	background-color: #D6DED8;
+}
+
+.box img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	width: 35%;
+}
+
+.right .mobile-only {
+	display: none;
+}
+
+
+.desc {
+	width: 60%;
+	padding-left: 16px;
+}
+
+.desc h3 {
+	font-weight: bolder;
+}
+
+.desc h3,
+.desc p {
+	padding-bottom: 8px;
+}
+
+.desc p {
+	line-height: 1.3em;
+}
+
+/*THIRD JUMBO SECTION*/
+.container-three {
+	background-color: #D6DED8;
+	color: #38383B;
+}
+
+.heading {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 35px;
+	padding-top: 32px;
+	padding-bottom: 16px;
+}
+
+.courses-menu {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: auto;
+	overflow: hidden;
+	flex-shrink: 2;
+}
+
+.course .course-text {
+	padding: 16px 16px 24px 16px;
+}
+
+.course {
+	margin: 16px;
+	width: 30%;
+	background-color: white;
+}
+
+.course img {
+	height: auto;
+	max-width: 100%;
+}
+
+.course-text h3 {
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 16px;
+}
+
+.course-text p {
+	padding-top: 8px;
+	line-height: 1.3em;
+	color: #8F9490;
+}
+
+/*FOURTH JUMBO SECTION*/
+.container-four {
+	padding-bottom: 32px;
+	color: #38383B;
+	background-color: #EDEDFA;
+}
+
+.content {
+	display: flex;
+}
+
+.lefty {
+	overflow: hidden;
+	padding: 16px 24px 32px 24px;
+	width: 60%;
+}
+
+
+.video video {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.video-desc h3 {
+	padding-top: 24px;
+	padding-bottom: 8px;
+}
+
+.video-desc p {
+	line-height: 1.3em;
+}
+
+.righty {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+
+.boxy {
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 16px;
+}
+
+.boxy img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	width: 35%;
+}
+
+.boxy:hover {
+	background-color: #D6DED8;
+}
+
+footer {
+    	display: flex;
+    	justify-content: space-between;
+    	padding: 16px 24px;
+    	height: 70px;
+    	background-color: #EDEDFA;
+    	color: #38383B;
+    	border-top: 1px solid #D6DED8;
+    	font-size: 14px;
+    }
+
+    .not-for-mobile a {
+    	margin-right: 16px;
+    	text-decoration: none;
+    	color: #38383B;
+    }
+
+    .not-for-mobile {
+    	display: flex;
+    }
+
+@media only screen and (max-width: 500px) {
+	
+	/*HEADER SECTION Media Queries*/
+	.logo h2, nav {
+		display: none;
+	}
+
+	.for-mobile {
+		display: block;
+	}
+
+	.logo {
+		display: flex;
+		justify-content: space-between;
+		height: 64px;
+		width: 100%;
+	}
+
+	/*FIRST JUMBO SECTION Media Queries*/
+	.container-one {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.appeal {
+		display: flex;
+		width: auto;
+		align-items: flex-start;
+		padding-left: 16px;
+		padding-bottom: 32px;
+	}
+
+	.banner {
+		padding: 0;
+		width: auto;
+	}
+
+	.appeal h1 {
+	   font-size: 35px;
+	   padding-top: 32px;
+	   padding-bottom: 32px;
+    }
+
+    .appeal h2 {
+    	padding-bottom: 24px;
+    }
+
+    .appeal a {
+    	width: 90%;
+    	padding-right: 16px;
+    	background-color: #5C5C61;
+    }
+
+    /*SECOND JUMBO SECTION Media Queries*/
+    .left {
+    	display: none;
+    }
+
+    .right {
+    	width: 100%;
+    	overflow: hidden;
+    	padding-top: 0;
+    	margin-bottom: -32px;
+    }
+
+    .box {
+    	display: flex;
+    	flex-direction: column;
+    	padding: 16px;
+    }
+
+    .box img {
+    	height: auto;
+	    width: auto;
+	    display: block;
+    }
+
+    .desc {
+    	width: 100%;
+    	padding-top: 24px;
+    	padding-bottom: 48px;
+    }
+
+    .right .desktop-only {
+    	display: none;
+    }
+
+    .right .mobile-only {
+    	display: block;
+    }
+
+    /*THIRD SECTION Media Queries*/
+    .container-three {
+    	background-color: #EDEDFA;
+    	border-top: 1px solid #D6DED8;
+    	border-bottom: 1px solid #D6DED8;
+    }
+
+    .heading {
+    	padding-bottom: 0;
+    }
+
+    .course img {
+    	display: none;
+    }
+
+    .course-text p {
+    	display: none;
+    }
+
+    .courses-menu {
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	padding: 16px 16px 32px 16px;
+    }
+
+    .course {
+    	width: 100%;
+    	background-color: #D6DED8;
+    	margin-bottom: 0;
+    }
+
+    /*FOURTH JUMBO SECTION Media Queries*/
+    .righty {
+    	display: none;
+    }
+
+    .video-desc {
+    	display: none;
+    }
+
+    .lefty {
+    	width: 100%;
+    	padding: 16px 0 0 0;
+    }
+
+    /*FOOTER*/
+    .not-for-mobile {
+    	display: none;
+    }
+
+    footer {
+    	border-top: none;
+    	height: auto;
+    }
+
+    .rese
